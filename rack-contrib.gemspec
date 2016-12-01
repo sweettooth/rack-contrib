@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
   s.name    = 'rack-contrib'
-  s.version = GVB.version rescue "0.0.0.1.ENOGVB"
-  s.date    = GVB.date    rescue Time.now.strftime("%F")
+  s.version = "0.0.0.1.ENOGVB"
+  s.date    = Time.now.strftime("%F")
 
   s.licenses = ['MIT']
 
